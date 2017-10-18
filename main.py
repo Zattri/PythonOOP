@@ -6,7 +6,7 @@ class Vehicle:
         self.name = vehName
         self.doors = numDoors
         self.wheels = numWheels
-        self.make = "Fe-rawr-ee"
+        self.make = "Generic Engines"
 
     def printSpecs(self):
         print(self.name, self.doors, self.wheels, self.make)
@@ -92,5 +92,7 @@ def main():
     lorry_example.printSpecs()
 
     '''
+
+    input() # Input added to stop CMD closing if ran that way
 
 main()
