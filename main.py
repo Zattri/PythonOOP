@@ -56,8 +56,6 @@ class Lorry(Vehicle):
 
 def main():
 
-    '''
-
     # Class Example 1
     ollie_car = Vehicle("Pickle Rick", 2, 0)
     tom_car = Vehicle("Knight Rider", 3, 4)
@@ -90,9 +88,5 @@ def main():
 
     van_example.printSpecs()
     lorry_example.printSpecs()
-
-    '''
-
-    input() # Input added to stop CMD closing if ran that way
 
 main()
